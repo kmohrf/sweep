@@ -1,14 +1,11 @@
 {
   "name": "sweep",
   "version": "1.2.2",
-  "authors": [
-    "rileyjshaw <i@rileyjshaw.com>"
-  ],
   "description": "A JavaScript library for smoother color transitions",
-  "main": "bin/sweep.min.js",
-  "moduleType": [
-    "umd"
-  ],
+  "main": "lib/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [
     "HSL",
     "RGB",
@@ -20,11 +17,9 @@
     "spectrum",
     "color"
   ],
+  "author": "rileyjshaw <i@rileyjshaw.com>",
   "license": "MIT",
-  "homepage": "http://rileyjshaw.com/sweep/",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components"
-  ]
+  "dependencies": {
+    "husl": "^6.0.1"
+  }
 }
